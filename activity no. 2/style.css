@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header-content{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.header-content p{
+    font-size: 40px;
+    padding: 20px;
+}
+.header-content span{
+    font-size: 20px;
+}
+#latest{
+    font-size: 30px;
+}
+#portfolio{
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    left: 90%;
+    bottom: 150px;
+}
+.container{
+    padding: 25px;
+    
+}
+.container h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.container p{
+    padding-bottom: 10px;
+}
+.container span{
+    color: grey;
+}
+button{
+    padding: 10px;
+    position: absolute;
+    left: 90%;
+}
+.container #footer{
+    position: absolute;
+    left: 83%;
+    bottom: 0;
+}

@@ -1,0 +1,113 @@
+body{
+    font-size: 20px;
+}
+section{
+    width: 1500px;
+    max-width: 90%;
+    margin: 0px auto;
+}
+#container{
+    width: 1400px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.box{
+    border: 3px solid black; 
+    max-width: 50px;
+    max-height: 50px; 
+    padding: 10px;
+    line-height: 50px; 
+    text-align: center; 
+    font-size: 1.63em;
+}
+
+#panelOne{
+    float: left; 
+}
+
+#panelTwo{
+    float: left; 
+    position: relative; 
+    top: 75px; 
+}
+
+.panelThree{
+    float: left; 
+    position: relative; 
+    top: 225px; 
+}
+
+.panelFour{
+    float: left; 
+    position: relative; 
+    top: 75px; 
+}
+
+#panelFive{
+    float: left; 
+}
+
+#lowerContainer{
+    float: left; 
+    margin-top: 15px;
+    margin-left: 300px;
+}
+
+.bottom{
+    float: left; 
+}
+
+
+body {
+    font-size: 16px;
+}
+
+section {
+    width: 1500px;
+    max-width: 90%;
+    margin: 0px auto;
+}
+
+#container {
+    width: 1400px;
+}
+
+.box {
+    border: 3px solid black;
+    max-width: 50px;
+    max-height: 50px;
+    padding: 10px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.63em;
+}
+
+
+#panelOne .box { background-color: #ff9999; } /* H */
+#panelOne .box:nth-child(2n) { background-color: #ffcc99; } /* Li, K, Cs */
+#panelOne .box:nth-child(2n+1) { background-color: #ffeb99; } /* Na, Rb, Fr */
+
+#panelTwo .box { background-color: #ccffcc; } /* Be, Mg, Ca, Sr, Ba, Ra */
+
+.panelThree .box { background-color: #b3b3ff; } /* Sc, Y, X, X */
+.panelThree:nth-child(3n+1) .box { background-color: #99ccff; } /* Ti, V, Cr, Mn, Fe, Co, Ni */
+.panelThree:nth-child(3n+2) .box { background-color: #66cc99; } /* Zr, Nb, Mo, Tc, Ru, Rh, Pd */
+.panelThree:nth-child(3n+3) .box { background-color: #339966; } /* Hf, Ta, W, Re, Os, Ir, Pt */
+
+.panelFour .box { background-color: #ffcc99; } /* B, Al, Ga, In, Ti, Uut */
+.panelFour:nth-child(4n+1) .box { background-color: #ffeb99; } /* C, N, O, F */
+.panelFour:nth-child(4n+2) .box { background-color: #ff9999; } /* Si, P, S, Cl */
+.panelFour:nth-child(4n+3) .box { background-color: #ccffcc; } /* Ge, As, Se, Br */
+.panelFour:nth-child(4n+4) .box { background-color: #b3b3ff; } /* Sn, Sb, Te, I */
+
+#panelFive .box { background-color: #ffd700; } /* He, Ne, Ar, Kr, Xe, Rn, Uuo */
+
+#lowerContainer .box:nth-child(2n) { background-color: #e6e6e6; } /* La, Ac */
+#lowerContainer .box:nth-child(2n+1) { background-color: #cccccc; } /* La, Ac */
+
+
+
+
+
+
+

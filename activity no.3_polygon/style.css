@@ -1,0 +1,206 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+.main-content{
+}
+
+.container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    margin-left: 500px;
+}
+
+.pentagon-container {
+    position: absolute;
+    top: 0;
+    left: 30%;
+
+}
+
+.pentagon {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.pentagon h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.triangle-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.triangle {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(0% 100%, 50% 0, 100% 100%);
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.triangle h1 {
+    font-size: 26px;
+}
+
+.square-container {
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.hexagon-container {
+    position: absolute;
+    top: 0;
+    left: 45%;
+}
+
+.hexagon {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.heptagon-container {
+    position: absolute;
+    top: 0%;
+    left: 58%;
+}
+
+.heptagon {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(50% 0%, 90% 25%, 100% 65%, 75% 100%, 25% 100%, 0% 65%, 10% 25%);
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.octagon-container {
+    position: absolute;
+    top: 30%;
+    left: 1%;
+}
+
+.octagon {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(29% 0%, 71% 0%, 100% 29%, 100% 71%, 71% 100%, 29% 100%, 0% 71%, 0% 29%);
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.nonagon-container {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.nonagon {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(50% 0%, 87% 15%, 100% 50%, 87% 85%, 50% 100%, 13% 85%, 0% 50%, 13% 15%);
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.decagon-container {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.decagon {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.hendecagon-container {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+.hendecagon {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(35% 100%, 10% 85%, 0% 60%, 5% 30%, 20% 10%, 50% 0%, 80% 10%, 95% 30%, 100% 60%, 90% 85%,65% 100%);
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.dodecagon-container {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+.dodecagon {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(40% 100%,15% 85%,0% 60%,0% 40%,15% 15%,40% 0%,60% 0%,85% 15%,100% 40%,100% 60%,85% 85% ,60% 100%);
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+

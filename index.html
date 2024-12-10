@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><!--HEAD-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--Box icons-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--Font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!--BOOTSTRAP INCLUDE-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<style>
+    /* para sa scroll bar */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #ff6600;
+    }
+</style>
+
+<body><!--BODY-->
+
+    <header>
+        <img src="img/logo.png" alt="logo" class="logo">
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="home" id="home"><!--HOME SECTION-->
+        <div class="home-text">
+            <h1>Hi, I'm Laurence!</h1>
+            <h2> <img src="img/pin.png">Nueva Ecija, Philippines</h2>
+            <p>Currently a First year College <span> BSIT Student </span> in <span><a target="_blank"
+                        href="https://www.facebook.com/NEUSTPAPAYA?mibextid=dGKdO6"> Nueva Ecija University <br> of
+                        Science and Technology (NEUST) Papaya Off-Campus </a> </span></p>
+        </div>
+    </section><!--HOME SECTION-->
+
+    <section class="about" id="about"><!--ABOUT SECTION-->
+        <div class="about-content"><!--ABOUT-CONTENT-->
+            <div class="about-title">
+                <h1>ABOUT</h1>
+            </div>
+            <div class="who-container">
+                <div class="circle"></div>
+                <div class="about-item">
+                    <h1>Hi, again, I'm <span id="name">Laurence Garcia</span></h1>
+                    <p>I am currently a First year BSIT student at NEUST. I got interested in computers and programming
+                        during a highschool TLE course. Moving up to senior high school, I took TVL specialized in ICT.
+                    </p>
+                    <p>Upon further learning and research, I found out that everything on a website is made with HTML
+                        and CSS, and with that information I gain more interest in pursuing computers and programming.
+                    </p>
+                    <p>As a First year BSIT student at NEUST, I am currently learning C++ since it is the required
+                        programming language for our first-year curriculum. In the future, if I have some free time or
+                        during vacations, I plan to start learning C++ and JS on my own. I am really interested in
+                        exploring web development more deeply!</p>
+                </div><!--ABOUT ITEM-->
+                <div class="about-img">
+                    <img src="img/aboutpic.jpg">
+                    <img src="img/aboutpic2.jpg">
+                    <img src="img/aboutpic3.jpg">
+                    <img src="img/aboutpic4.jpg">
+                </div><!--IMAGE-->
+            </div><!--WHO CONTAINER-->
+            <div class="who-container2"><!--WHO CONTAINER 2-->
+                <div class="main"><!--TIMELINE-->
+                    <h3 class="head"> Education</h3>
+                    <div class="container">
+                        <ul>
+                            <li>
+                                <h3 class="heading">Freshman BSIT</h3>
+                                <p>In my first year as a BSIT student at NEUST, I'm building a foundation in computing,
+                                    programming, and networking. I aspire to become a full stack developer or a database
+                                    analyst, and I'm excited about the educational journey ahead, exploring various
+                                    subjects and opportunities.</p>
+                                <a href="#">Read More ></a>
+                                <span class="date">2023 - Present</span>
+                                <span class="circle"></span>
+                            </li>
+                            <li>
+                                <h3 class="heading">Grade 12 ICT</h3>
+                                <p>I graduated from <span class="school">General Tinio National High School</span> in
+                                    2022-2023 after
+                                    completing Grade 12 TVL ICT. I focused on ICT</p>
+                                <a href="#">Read More ></a>
+                                <span class="date">2022-2023</span>
+                                <span class="circle"></span>
+                            </li>
+                            <li>
+                                <h3 class="heading">Grade 11 ICT</h3>
+                                <p>I learned about hardware in Grade 11 TVL ICT through online classes at <span
+                                        class="school">General Tinio National High school</span>, despite the challenges
+                                    of the online setup. </p>
+                                <a href="#">Read More ></a>
+                                <span class="date">2021-2022</span>
+                                <span class="circle"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="certificate"><!--CERTIFICATE-->
+                    <div class="certificate-title">
+                        <h1>CERTIFICATE</h1>
+                        <hr>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-img">
+                            <img src="img/certificate.jpg" alt="certificate">
+                            <img src="img/tesdaa.jpg" alt="certificate">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section class="works" id="works"><!--WORKS SECTION-->
+        <div class="works-content"><!--WORKS CONTENT-->
+            <div class="works-title">
+                <h1>Works</h1>
+                <hr>
+            </div><!--WORKS TITLE-->
+            <div class="works-container"><!--WORK CONTAINER-->
+                <div class="works-item"><!-- WORKS ITEM-->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card mb-5 mt-5">
+                                    <img src="/img/table.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5>Periodic Table</h5>
+                                        <a target="_blank" href="/periodic table/index.html"
+                                            class="btn custom-btn">View</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="card  mb-5 mt-5">
+                                    <img src="/img/monopoly.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5>Monopoly</h5>
+                                        <a target="_blank" href="/monopoly1/monopoly.html"
+                                            class="btn custom-btn">View</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="card  mb-5 mt-5">
+                                    <img src="/img/activity1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5>Blog 1</h5>
+                                        <a target="_blank" href="/activity no. 1/index.html"
+                                            class="btn custom-btn">View</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="card  mb-5 mt-5">
+                                    <img src="/img/activity2.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5>Blog 2</h5>
+                                        <a target="_blank" href="/activity no. 2/index.html"
+                                            class="btn custom-btn">View</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="card  mb-5 mt-5">
+                                    <img src="/img/polygons.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5>Polygons</h5>
+                                        <a target="_blank" href="/activity no.3_polygon/index.html"
+                                            class="btn custom-btn">View</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="card  mb-5 mt-5">
+                                    <img src="/img/chessboard.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5>Chessboard</h5>
+                                        <a target="_blank" href="/chessboard/chessboard.html"
+                                            class="btn custom-btn">View</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="card  mb-5 mt-5">
+                                    <img src="/img/imagemap.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5>Image map</h5>
+                                        <a href="/image_mapping/" class="btn custom-btn">View</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="card  mb-5 mt-5 rounded">
+                                    <img src="/img/activity1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5>Activity 8</h5>
+                                        <a href="#" class="btn custom-btn">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <div class="contact-title">
+                <h1>Contacts</h1>
+            </div>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Contact Me</h3>
+                            <p>If you have any questions or inquiries, feel free to get in touch with me.</p>
+                            <ul class="contact-info">
+                                <li><i class="fas fa-envelope"></i> laurenceg079@gmail.com</li>
+                                <li><i class="fas fa-phone"></i>09944137548</li>
+                                <li><i class="fas fa-map-marker-alt"></i>Rio Chico General Tinio Nueva Ecija</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Follow Me</h3>
+                            <ul class="social-icons">
+                                <li><a target="_blank" href="https://www.facebook.com/galawang.laurence.08/"><i
+                                            class="fab fa-facebook"></i>John Laurence Abrigos Garcia</a></li>
+                                <li><a target="_blank" href="https://www.instagram.com/eyyowlaurence/"><i
+                                            class="fab fa-instagram"></i>eyyowlaurence</a></li>
+                                <li><a target="_blank" href="https://twitter.com/eyyowlaurence7"><i
+                                            class="fab fa-twitter"></i>Laurence123</a></li>
+                            </ul>
+                            <p>&copy; 2024 John Laurence</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+        </div>
+    </section>
+
+    <!--BOOTSTRAP JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
